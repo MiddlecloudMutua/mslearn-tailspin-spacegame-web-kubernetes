@@ -63,7 +63,7 @@ stages:
             inputs:
               action: createSecret
               secretName: $(imagePullSecret)
-              dockerRegistryEndpoint: 'contregmutuademo.azurecr.io'
+              dockerRegistryEndpoint: 'MutuaRegistry'
               kubernetesServiceConnection: 'MutuaAKS'
               namespace: 'default'
           
